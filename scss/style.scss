@@ -42,14 +42,16 @@ body{
     bottom: 82px;
     right: 400px;
 }
-// #ground::before{
-//     background-image: url(../img/ArrowSign.png);
-//     content: "";
-//     display: block;
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     position: absolute;
-//     height: 100px;
-//     width: 100px;
-
-// }
+#ground::before{
+    background-image: url(../img/ArrowSign.png);
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 150px;
+    left: 120px;
+    z-index: -1;
+}
