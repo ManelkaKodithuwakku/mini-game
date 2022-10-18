@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/BG.png);
+    background-size: contain;
+}
+#player{
+    background-image: url(../img/Idle\ \(2\).png);
+    background-position-y: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    bottom: 550px;
+}
+#ground{
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    width: 100vw;
+    background-image: url(../img/Tile\ \(2\).png);
+    background-size: contain;
+}
+.turn{
+    transform: rotateY(180deg);
+}
+#ground::after{
+    background-image: url(../img/Tree.png);
+    content: "";
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 82px;
+    right: 400px;
+}
+// #ground::before{
+//     background-image: url(../img/ArrowSign.png);
+//     content: "";
+//     display: block;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     position: absolute;
+//     height: 100px;
+//     width: 100px;
+
+// }
