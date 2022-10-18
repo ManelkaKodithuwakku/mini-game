@@ -8,11 +8,11 @@ let index = 1;
 
 const draw = ()=>{
     if(dy<0){  
-        player.style.backgroundImage = `url('../img/Jump\ \(${index++}\).png')`;
+        player.style.backgroundImage = `url('img/Jump\ \(${index++}\).png')`;
     }else if(dx!==0){
-        player.style.backgroundImage = `url('../img/Run\ \(${index++}\).png')`;
+        player.style.backgroundImage = `url('img/Run\ \(${index++}\).png')`;
     }else{
-        player.style.backgroundImage = `url('../img/Idle\ \(${index++}\).png')`;
+        player.style.backgroundImage = `url('img/Idle\ \(${index++}\).png')`;
 
     }
     if(index > 8) index=1;
